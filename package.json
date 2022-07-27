@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "serve -s build",
+    "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "heroku-postbuild": "npm run build"
